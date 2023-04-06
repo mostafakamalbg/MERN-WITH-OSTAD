@@ -16,6 +16,4 @@ function calculateBMI() {
     var resultElement = document.getElementById("result");
     resultElement.innerHTML = "Your BMI is: " + bmi.toFixed(2);
     }
-    function author(Print){
-    alert(Print);
-    }    
+   
