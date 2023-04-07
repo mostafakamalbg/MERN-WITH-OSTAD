@@ -5,6 +5,11 @@ body{
     background: #1C2833;
     display: block;
 }
+.bmibody{
+    display: block;
+    max-width:992px;
+    max-height: 800px;
+}
 .calCulater_aria{
     display: block;
     position: absolute;
@@ -12,8 +17,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: linear-gradient(#fff700, yellow, #00ff69);
-    max-width: 400px;
-    min-height: 500px;
+    max-width: 00px;
+    max-height: 500px;
     padding: 20px;
     margin: 20px;
     text-align: center;
