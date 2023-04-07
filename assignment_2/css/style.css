@@ -12,8 +12,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: linear-gradient(#fff700, yellow, #00ff69);
-    width: 300px;
-    height: 300px;
+    min-width: 300px;
+    min-height: 300px;
     padding: 20px;
     margin: 20px;
     text-align: center;
