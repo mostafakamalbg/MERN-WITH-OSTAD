@@ -1,0 +1,23 @@
+.box{
+    background: #000;
+    text-align: center;
+    padding: 50px;
+    width: 900px;
+    height: 600px;
+    border: 1px solid #119423;
+    margin: 0 auto;
+
+}
+h1{
+    color: #119423;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+button{
+    font-size: 26px;
+    color: #DA0D84;
+    border: 3px solid #119423;
+    padding: 5px 35px 5px;
+    border-radius: 30px;
+    text-transform: capitalize;
+}
