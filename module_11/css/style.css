@@ -1,0 +1,104 @@
+*{ margin:0; padding:0; }
+html{ margin:0; padding:0; }
+body{
+    font-family: 'Roboto', sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	line-height:22px;
+    color: #fff;
+	background: linear-gradient(to bottom, #4B79A1, #283E51);
+}
+.container{
+    display: block;
+    background: #708090;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+.container h1{
+    color: #CD5C5C;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 10px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.container p{
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: revert;
+    letter-spacing: 1px;
+}
+.product_list ul li{
+    display: inline-block;
+    text-decoration: none;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.product_list ul li h4{
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+.product_list ul li h4:hover{
+    color: #eb0e0e;
+}
+.product_list ul li img{
+    width: 250px;
+    height: 200px;
+    transition: .7s;
+
+}
+.product_list ul li img:hover{
+    transform: scale(1.2);
+}
+.clothing_items{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+.tshirt_img{
+    padding: 5px;
+}
+.tshirt_img img{
+    width: 100%;
+    display: inline-block;
+    transition: .7s;
+}
+.tshirt_img img:hover{
+    /*transform:translate(10px, 10px)*/
+    transform: scale(1.2);
+
+}
+.productlist tr th{
+    display: inline-block;
+    width: 25%;
+    color: red;
+}
+.productlist tr th:hover{
+    color: #fff;
+}
+.productlist tr td{
+    display: inline-block;
+    width: 20%;
+    padding: 5px;
+}
+.productlist tr td:hover{
+    color: #eb0e0e;
+}
+.footer{
+    text-align: center;
+    color: #eb0e0e;
+    text-transform: capitalize;
+}
